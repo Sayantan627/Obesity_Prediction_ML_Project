@@ -351,7 +351,7 @@ def page2():
     st.subheader(':orange[Personal Information : ]')
     st.write(f"##### Gender : {variables.get('gender', '')}")
     st.write(f"##### Age : {variables.get('age', '')}")
-    st.write(f"##### Height : {variables.get('height', '')} m")
+    st.write(f"##### Height : {variables.get('height', '')} cm")
     st.write(f"##### Weight : {variables.get('weight', '')} kg")
     st.write(f"##### Family History of Overweight : {variables.get('family_overweight', '')}")
 
